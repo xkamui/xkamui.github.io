@@ -1,0 +1,53 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+img.headImage {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 16px;
+  text-align: left;
+}
+
+body {
+  background-color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 1;
+  padding: 0 20px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: overline;
+}
